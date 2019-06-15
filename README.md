@@ -44,4 +44,4 @@ export default ({markdown}) => {
 ```
 
 ## Example
-The `/example` folder contains a simple Carbon-based page rendering the markdown from the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+The `/example` folder contains a [simple Carbon-based page](https://hmedney.github.io/carbon-markdown-scss) rendering the markdown from the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
