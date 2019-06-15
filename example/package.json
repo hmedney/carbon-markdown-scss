@@ -1,7 +1,8 @@
 {
-  "name": "example",
-  "version": "0.1.0",
+  "name": "carbon-markdown-scss-example",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://hmedney.github.io/carbon-markdown-scss",
   "dependencies": {
     "@carbon/elements": "^10.3.0",
     "carbon-components": "^10.3.1",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
