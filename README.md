@@ -5,7 +5,7 @@ The IBM Carbon Design System css resets HTML elements like `<p>` and `<h1>` whic
 ## How it works
 Based heavily on [GitHub markdown css](https://github.com/sindresorhus/github-markdown-css), this package re-styles html elements under css class `markdown-body`.
 1. Start with GitHub css in [GitHub markdown css](https://github.com/sindresorhus/github-markdown-css)
-2. Selectively bring-in styles from Carbon. For example:
+2. Selectively bring-in styles from Carbon, e.g.
     ```scss
     .markdown-body h5 {
       @include carbon--type-style('expressive-heading-01');
@@ -19,7 +19,7 @@ Based heavily on [GitHub markdown css](https://github.com/sindresorhus/github-ma
     
 ## Usage
 ```sh
-npm install carbon-markdown-scss
+npm install 
 ```
 
 ```javascript
@@ -38,3 +38,6 @@ export default ({markdown}) => {
   );
 };
 ```
+
+## Example
+The `/example` folder contains a simple Carbon-based page rendering the markdown from the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
