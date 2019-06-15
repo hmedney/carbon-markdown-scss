@@ -19,7 +19,11 @@ Based heavily on [GitHub markdown css](https://github.com/sindresorhus/github-ma
     
 ## Usage
 ```sh
-npm install 
+# install peer dependencies
+npm install carbon-components @carbon/elements
+
+# install this package
+npm install https://github.com/hmedney/carbon-markdown-scss
 ```
 
 ```javascript
