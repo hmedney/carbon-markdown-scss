@@ -1,0 +1,1 @@
+Example application to show a the Carbon-rendered Markdown.  Uses [Create React App](https://github.com/facebook/create-react-app).
