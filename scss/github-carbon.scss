@@ -1,7 +1,8 @@
+@import './github.scss';
 @import '@carbon/elements/scss/type/type.scss';
 @import 'carbon-components/scss/components/list/_list.scss';
 
-.markdown-body p {
+.markdown-body {
   @include carbon--type-style('body-long-01');
 }
 
@@ -43,5 +44,3 @@
 .markdown-body ul li {
   @extend .bx--list__item;
 }
-
-@import './github.scss';
